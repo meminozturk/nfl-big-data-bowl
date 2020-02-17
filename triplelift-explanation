@@ -1,0 +1,8 @@
+As title said,the model we used just embedding player’s basic feature and projections by friend group and ravel group then sum it up because it can bring symmetry for everyone.
+The only trick thing we use is data enhancement.Flip the variables up and down along the X axis.
+The total running time is about 2800s.
+Scored 0.01277 on LB.
+
+Did you use GraphNN?
+No,only attention+embedding+MLP
+
