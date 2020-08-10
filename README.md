@@ -1,5 +1,16 @@
 # 13th place solution to NFL Big Data Bowl Competition in Kaggle
 
+NFL Big Data Bowl competition finalized on 6th January 2020 with 2,038 teams. 
+
+National Football League (NFL) arranged a Kaggle competition to develop a model to predict how many yards a team will gain on given rushing plays as they happen. We're provided game, play, and player-level data, including the position and speed of players as provided in the NFL’s Next Gen Stats data. And the best part - we could see how our model performed, as the leaderboard were updated week after week on the current season’s game data as it played out.
+
+Thanks to Kaggle team, organizers, Kaggle community for their contributions and my brilliant teammates [Pocket](https://www.kaggle.com/pocketsuteado), [TripleLift](https://www.kaggle.com/triplelift) and [Sunyuhao](https://www.kaggle.com/sunyuhao222) for their efforts. It was real fun to work with them.
+
+This is the brief summary of our final pipeline with the code for each step. Please visit the competition page for competition data and more details;
+https://www.kaggle.com/c/nfl-big-data-bowl-2020
+
+![Final Leaderboard](final_leaderboard.PNG)
+
 We developed a Deep Learning model consisting of Attention and Embedding layers on top of a Multilayer Perceptron.
 
 Few words about how we came up with the model structure. To simplify we assume a rushing play consists of:
